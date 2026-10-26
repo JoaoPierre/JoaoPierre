@@ -7,7 +7,7 @@ I started as an intern and grew into a full-stack role where I own features end 
 
 ### Highlights
 
-- **Zero-downtime database migration.** Planned and led a schema migration on a live production app without taking it offline.
+- **Legacy system migration.** Led the migration of production data from a legacy application into its rebuilt replacement, with no downtime for users.
 - **Real-time queue management.** Designed and shipped a WebSocket-based feature that updates queue state live for every connected user.
 - **[asaas-sdk](https://github.com/JoaoPierre/asaas-ruby).** Zero-dependency Ruby SDK for Asaas, one of Brazil's main payment platforms (Pix, Boleto, credit card, subscriptions, webhooks). Covers 23 API resources and is tested in three layers: WebMock unit specs, VCR integration specs, and a weekly job that re-records them against the sandbox.
 - **AI-assisted legal-tech SaaS (in progress).** Rails 8 API with RAG search over pgvector and agent tool orchestration, where the LLM only parses intent and deterministic Ruby code owns validation and persistence.
